@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('background-wave-white-gradient-design_483537-1128.avif');
+  background-size: cover;
+  background-position: center center; 
+  background-attachment: fixed;
+  height: 100vh; 
+}

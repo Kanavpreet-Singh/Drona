@@ -1,0 +1,140 @@
+.cheat-sheet {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  
+    min-height: 100vh;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .cheat-sheet__main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .cheat-sheet__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .cheat-sheet__content {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    height: 60vh;
+    overflow: auto;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cheat-sheet__loading {
+    text-align: center;
+    color: #666;
+  }
+  
+  .cheat-sheet__actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .cheat-sheet__button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .cheat-sheet__button--primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+  }
+  
+  .cheat-sheet__button--primary:hover {
+    background-color: #333;
+  }
+  
+  .cheat-sheet__button--secondary {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .cheat-sheet__button--secondary:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .cheat-sheet__button-icon {
+    margin-right: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .cheat-sheet__actions {
+      flex-direction: column;
+    }
+  
+    .cheat-sheet__button {
+      width: 100%;
+    }
+  }
+  .markdown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .markdown-content ul {
+    display: block; /* Change to block layout for normal list alignment */
+    padding-left: 1.5em; /* Maintain padding for indentation */
+    margin: 1em 0;
+    list-style-type: disc;
+  }
+  
+  .markdown-content li {
+    text-align: left; /* Align text to the left */
+    margin: 0.5em 0; /* Spacing between list items */
+  }
+  
+  .markdown-content p {
+    margin: 0.8em 0;
+  }
+  
+  .markdown-content strong {
+    font-weight: bold;
+  }
+  
+  .markdown-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .markdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  

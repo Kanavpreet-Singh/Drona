@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70%;
+    margin: 0 auto; /* Center horizontally */
+    position: absolute; /* Positioning for vertical centering */
+    top: 50%; /* Start positioning at the middle of the page */
+    left: 50%; /* Start positioning at the middle of the page */
+    transform: translate(-50%, -50%); /* Adjust to center exactly */
+    border-radius: 15px; /* Smooth rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Elegant box shadow */
+    overflow: hidden; /* Ensures no child elements overflow */
+}
+
+
+
+
+
+.login .left {
+    position: relative; /* Set relative position for child absolute positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the rest of the content vertically */
+    align-items: center; /* Center the rest of the content horizontally */
+    height: 80vh;
+    width: 40%;
+    background-image: url('k.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.login .left .logo {
+    position: absolute; /* Position logo at the top-left corner */
+    top: 15px; /* Adjust the top margin */
+    left: 0px; /* Adjust the left margin */
+    width: 70px; /* Smaller logo size */
+    height: 60px; /* Maintain aspect ratio */
+}
+.login .left .logo img{
+    border-radius: 50%;
+}
+
+.login .left .hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.login .left h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.login .left p {
+    color: white;
+    font-size: 22px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.login .left button {
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: auto;
+    margin-top: 30px;
+}
+
+.login .left button:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.login .right {
+    background-image: url('background-wave-white-gradient-design_483537-1128.avif');
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.login .right h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.login .right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;    
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.login .right .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login .right label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.login .right .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.login .right .input-container i {
+    position: absolute;
+    left: 10px;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.login .right input {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.login .right input:focus {
+    outline: none;
+    border: 1px solid #4CAF50;
+    background-color: white;
+}
+
+.login .right button {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    /* transition: background-color 0.3s ease, transform 0.3s ease; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.login .right button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Add padding to the left to make space for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3f51b5;
+}
+

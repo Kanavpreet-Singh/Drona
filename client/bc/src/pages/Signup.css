@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.signup .left {
+    height: 80vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background-image: url('background-wave-white-gradient-design_483537-1128.avif');
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+.signup .left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.signup .left form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.signup .left .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signup .left label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.signup .left .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.signup .left .input-container i {
+    position: absolute;
+    left: 10px;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.signup .left input {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.signup .left input:focus {
+    outline: none;
+    border: 1px solid #4CAF50;
+    background-color: white;
+}
+
+.signup .left button {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal; /* Default weight */
+}
+
+.signup .left button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.signup .right {
+    position: relative; /* Set relative position for child absolute positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the rest of the content vertically */
+    align-items: center; /* Center the rest of the content horizontally */
+    height: 80vh;
+    width: 40%;
+    background-image: url('k.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.signup .right .logo {
+    position: absolute; /* Position logo at the top-right corner */
+    top: 20px; /* Adjust the top margin */
+    right: 60px; /* Adjust the right margin */
+    width: 70px; /* Smaller logo size */
+    height: 60px; /* Maintain aspect ratio */
+    
+}
+.signup .right .logo img{
+    border-radius: 50%;
+}
+
+.signup .right .hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 100px; Ensure space from the logo */
+}
+
+.signup .right h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.signup .right p {
+    color: white;
+    font-size: 22px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.signup .right button {
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: auto;
+    margin-top: 30px;
+}
+
+
+
+
+.signup .right button:hover {
+    font-weight: 900; /* Makes the button text bold */
+    transform: scale(1.05); /* Enlarges the button slightly */
+}
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Add padding to the left to make space for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3f51b5;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #303f9f;
+}

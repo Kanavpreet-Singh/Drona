@@ -1,0 +1,14 @@
+fastapi
+agno
+ollama
+pgvector
+pypdf
+psycopg[binary]
+uvicorn
+sqlalchemy 
+psycopg
+google-generativeai
+duckduckgo-search
+keybert
+nltk
+groq
